@@ -66,7 +66,7 @@
 
       <!-- Progress -->
       <div
-        v-if="items.length > 0"
+        v-if="items.length > 0 && completedItems !== items.length"
         class="bg-yellow-300 px-4 py-2 rounded-lg text-center mb-6"
       >
         <p class="font-medium text-yellow-600">
